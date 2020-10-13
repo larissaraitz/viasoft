@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    width: 300px;
+    background: #333;
+    padding: 25px 15px;
+}
+.form>h1{
+    font-size: 1.5rem;
+    text-align: center;    
+    font-weight: normal;
+    margin-top:0;
+    color: #e1e1e1;
+}
+.form>input{
+    width: 280px;
+    height: 35px;
+    background-color: #575757;
+    border: none;
+    color: #f0f0f0;
+    padding: 0 10px;
+    text-align: right;
+}
+
+button{
+    background-color: #535553;
+    width: 150px;
+    margin: 15px auto;
+    height: 30px;
+    border: none;
+    color: #e1e1e1;
+}
+button:hover{
+    background-color:#73f444;
+    color: #333;
+}
+table{
+    width: 300px;
+    color: #e1e1e1;
+}
+.liquid{
+    color: #73f444;
+    font-weight: normal;
+}
+
+/* geral */
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+#error{
+    color: #f22;
+    margin-bottom: 0;
+}
+.label-salario{
+    color: #a6a6a6;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+}
