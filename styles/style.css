@@ -40,6 +40,11 @@ button{
     border: none;
     color: #e1e1e1;
 }
+button:hover{
+    background-color:#73f444;
+    color: #333;
+    cursor:pointer;
+}
 table{
     width: 300px;
     color: #e1e1e1;
